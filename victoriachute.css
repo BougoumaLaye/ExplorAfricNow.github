@@ -1,0 +1,107 @@
+body{
+    background-color: bisque;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#principal{
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    height: 4000px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+#entete{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(00.jpg);
+    
+}
+.chute{
+ 
+  padding-top: 270px;
+  font-size: 100px;
+  text-align: center;
+  letter-spacing: 40px;
+
+}
+#menu{
+    
+    width: 100%;
+    height: 105px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+   
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+#sow{
+    text-align: center;
+    font-size: 40px;
+}
+.bold-italic {
+    font-weight: bold;
+    font-style: italic;
+}  
+.bold-fracture { 
+    font-style: oblique;
+}
+#contenu{
+        background-color:#E9DF8F;
+        width: 100%;
+        height: 3100px;
+        padding-top: 40px;
+    }
+   
+    .content {
+      flex: 1;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 1200px;
+    }
+    
+    p {
+      margin-bottom: 20px;
+    }
+    
+    img, video {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .collage {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+     #piedpage{
+        background-color: #3B413F;
+        width: 100%;
+        height: 400px;
+    }
+    li{
+        display: inline-block;
+        padding: 20px;
+        color: white;
+        margin-left: 10px;
+        background-color: transparent;
+        border: solid 4px;
+        transition: 0.6 ease;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    li:hover{
+        background-color: transparent;
+        color: black;
+        text-decoration: underline;
+        box-shadow: 10px -10px 25px 0 rgb(124, 71, 71), -10px 10px 25px 0 rgb(255, 255, 255);
+        cursor: pointer;
+        transform: scale(1.3);
+    }
+   

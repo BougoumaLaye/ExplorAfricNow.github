@@ -1,0 +1,122 @@
+body{
+    background-color: bisque;
+}
+#principal{
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    height: 2500px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+#entete{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(masai-mara-reserve-banner.jpg);
+    
+}
+.mas{
+ 
+  padding-top: 270px;
+  font-size: 150px;
+  text-align: center;
+  letter-spacing: 40px;
+
+}
+#menu{
+    
+    width: 100%;
+    height: 105px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+   
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    padding-top: 40px;
+  }
+  figcaption {
+    font-style: italic;
+    color: #666;
+}
+  .content {
+    flex: 1;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .image-container {
+    flex: 1;
+    
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+#collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+#sow{
+    
+    font-size: 40px;
+}
+.bold-italic {
+    font-weight: bold;
+    font-style: italic;
+}    
+#contenu{
+    background-color:#E9DF8F;
+    width: 100%;
+    height: 2000px;
+    padding-top: 40px;
+}
+#piedpage{
+    background-color: #3B413F;
+    width: 100%;
+    height: 400px;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    margin-left: 10px;
+    background-color: transparent;
+    border: solid 4px;
+    transition: 0.6 ease;
+    text-decoration: none;
+    border-radius: 5px;
+}
+li:hover{
+    background-color: transparent;
+    color: black;
+    text-decoration: underline;
+    box-shadow: 10px -10px 25px 0 rgb(124, 71, 71), -10px 10px 25px 0 rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.3);
+}
+#menu li.active a {
+  background-color: #007bff;
+  color: #fff;
+}
